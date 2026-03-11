@@ -6,14 +6,11 @@
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.Scanner;
-public class PS1 {
+public class PS1Problem1{
 	public static void main(String[] args) {
 		// Error Handling for arguments
-		if(args.length < 2){
+		if(args.length < 2 || args.length > 2){
 			System.out.println("Insert 2 files into the arguments. Exiting...");
-			System.exit(2);
-		}else if(args.length > 2){
-			System.out.println("Insert only 2 files into the arguments. Exiting...");
 			System.exit(2);
 		}
 		int[][] a = fileToArray(args[0]);
