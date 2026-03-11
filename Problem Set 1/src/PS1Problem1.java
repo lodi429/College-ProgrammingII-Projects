@@ -93,8 +93,11 @@ public class PS1Problem1{
 	 * y + b.length and x + b.length.
 	 * Reason being is that im setting my
 	 * boundaries to be as big as the B matrix
-	 * is. Because I'm starting at the the
-	 * upper
+	 * is. Because I'm starting at the 
+	 * upper left corner, if i set the boundaries
+	 * to b.length, it will cause the for-loops
+	 * to run for too long causing an indexOutOfBounds
+	 * error.
 	 */
 		for(int i = y; i < y + b.length; i++) { 
 			for(int j = x; j < x + b[0].length; j++) {
