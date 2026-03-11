@@ -24,7 +24,7 @@ public class PS1 {
 		if(b.length >= a.length || b[0].length >= a[0].length){
 			System.out.println("B matrix must be of smaller size than the A matrix. Exiting...");
 			System.exit(3);
-		}else if(b.length % 2 == 1 || b.length != b[0].length){
+		}else if(b.length % 2 != 1 || b.length != b[0].length){
 			System.out.println("B matrix must be a square matrix of odd length");
 			System.exit(3);
 		}
