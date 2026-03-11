@@ -34,7 +34,7 @@ public class PS1Problem1{
 		System.out.println("Input Array A:\n");
 		for(int i = 0; i < a.length; i++){
 			for(int j = 0; j < a[0].length; j++){
-				String line = String.format("%-4s", a[i][j]);
+				String line = String.format("%-4s ", a[i][j]);
 				System.out.print(line);
 			}
 			System.out.println();
@@ -44,7 +44,7 @@ public class PS1Problem1{
 		System.out.println("Input Array B:\n");
 		for(int i = 0; i < b.length; i++){
 			for(int j = 0; j < b[0].length; j++){
-				String line = String.format("%-4s", b[i][j]);
+				String line = String.format("%-4s ", b[i][j]);
 				System.out.print(line);
 			}
 			System.out.println();
@@ -54,7 +54,7 @@ public class PS1Problem1{
 
 		for(int i = 0; i < c.length; i++){
 			for(int j = 0; j < c[0].length; j++){
-				String line = String.format("%-4s", c[i][j]);
+				String line = String.format("%-4s ", c[i][j]);
 				System.out.print(line);
 			}
 			System.out.println();
