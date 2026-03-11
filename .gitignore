@@ -1,1 +1,5 @@
 /.metadata/
+/Problem Set 1/.*
+/Problem Set 1/src/PS3Files.class
+/Problem Set 1/src/test.*
+/Problem Set 1/bin/test.*
