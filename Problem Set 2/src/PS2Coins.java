@@ -1,8 +1,8 @@
 /**********************************
- *          Student Name:   REDACTED
- *          Username:       REDACTED
- *          Assignment:     PS2
- *          Due Date:       March 16, 2026
+ *  Student Name:   REDACTED
+ *      Username:   REDACTED
+ *    Assignment:   PS2
+ *      Due Date:   March 16, 2026
  **********************************/
 import java.io.*;
 
